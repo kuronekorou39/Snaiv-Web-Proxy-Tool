@@ -1,0 +1,18 @@
+
+# node_modules は絶対に無視
+node_modules/
+
+# ログファイル
+*.log
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# npmキャッシュなど
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCodeの設定（人によっては）
+.vscode/
